@@ -26,55 +26,55 @@ export default function CustomNavbar() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal border-2 border-slate-300 rounded-xl bg-amber-500"
       >
         <a href="#" className="flex items-center">
-          Pages
+          Indian Judiaciary
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal border-2 border-slate-300 rounded-xl bg-amber-500"
       >
         <a href="#" className="flex items-center">
-          Account
+          Case History
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal border-2 border-slate-300 rounded-xl bg-amber-500"
       >
         <a href="#" className="flex items-center">
-          Blocks
+          Dashboard
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal border-2 border-slate-300 rounded-xl bg-amber-500"
       >
         <a href="#" className="flex items-center">
-          Docs
+          Apki Adalat
         </a>
       </Typography>
     </ul>
   );
  
   return (
-    <div className="border-2 border-red-800">
+    <div className="border-2 border-red-800 bg-amber-300 rounded-xl">
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
+            className="mr-4 cursor-pointer py-1.5 font-medium text-2xl"
           >
-            Material Tailwind
+            Home
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
@@ -83,7 +83,7 @@ export default function CustomNavbar() {
               size="sm"
               className="hidden lg:inline-block"
             >
-              <span>Buy Now</span>
+              <span>Sign In</span>
             </Button>
             <IconButton
               variant="text"
@@ -127,7 +127,7 @@ export default function CustomNavbar() {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
+            <span>Sign In</span>
           </Button>
         </MobileNav>
       </Navbar>
