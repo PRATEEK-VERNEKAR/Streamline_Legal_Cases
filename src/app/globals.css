@@ -4,11 +4,13 @@
 
 html,body,:root{
   height: 100%;
+  /* min-height: 100%; */
+  overflow: auto;
 }
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 179, 230, 230;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -28,4 +30,21 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+.downtotop {
+  animation-name: downtotop;
+  animation-duration: 4s;
+}
+
+@keyframes downtotop {
+  0%   {opacity:0.2}
+  25%   {opacity:0.4}
+  50%   {opacity:0.7}
+  100%   {opacity:1}
+}
+
+li{
+  margin-bottom: 9px;
 }
