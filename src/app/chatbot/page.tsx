@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Judiaciary = () => {
+const Chatbot = () => {
   return (
     <div>
-      okok
+      Chat boy
     </div>
   )
 }
 
-export default Judiaciary;
+export default Chatbot;
