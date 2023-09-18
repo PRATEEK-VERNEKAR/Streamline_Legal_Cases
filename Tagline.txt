@@ -1,0 +1,14 @@
+./app/layout.tsx
+
+./provider/modal-provider.tsx               (returns store-modal only if server rendering is complete otherwise returns false)
+
+./components/modals/store-modal          (ui of the modal using shadcn derived modal and dynamic using hooks)
+
+
+./components/ui/modal        ./hooks/use-store-modal
+
+(modal derived                 (open close dynamic function
+ from shadcn )                   using userdefined hooks)
+
+
+ p408CUgXv3ztAKEP
