@@ -8,15 +8,15 @@ connect();
 
 export async function POST(request:NextRequest){
     try{
-        console.log("HI");
         const reqBody=await request.json();
-        const {username,email,password}=reqBody;
+        const {name,post,email,password}=reqBody;
         console.log(reqBody);
         //check is user already exists
 
         const user=await User.findOne({email});
 
         if(user){
+            console.log("DUPLICATE")
             return NextResponse.json({error:"User already exists"},{status:400});
         }
 
@@ -26,22 +26,26 @@ export async function POST(request:NextRequest){
         const hashedPassword =await bcryptjs.hash(password,salt)
 
         const newUser=new User({
-            username,
+            name,
             email,
-            password:hashedPassword
+            password:hashedPassword,
+            post
         })
+
 
         const savedUser=await newUser.save()
         console.log(savedUser);
 
         return NextResponse.json({
-            message:"Create User successfully",
+            message:"Created User successfully",
             success:true,
             savedUser
         })
     }
     catch(error:any){
-        return NextResponse.json({error:error.message},
+        console.log("error");
+        console.log(error.message);
+        return NextResponse.json({message:error.message},
             {status:500})
 
         // return NextResponse.error(error)

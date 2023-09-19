@@ -3,7 +3,11 @@ import mongoose from  "mongoose";
 const userSchema =new mongoose.Schema({
     name:{
         type:String,
-        required:[true,"Username Required"],
+        required:[true,"Name Required"],
+    },
+    post:{
+        type:String,
+        required:[true,"Post is required"]
     },
     email:{
         type:String,
@@ -14,11 +18,7 @@ const userSchema =new mongoose.Schema({
         type:String,
         required:[true,"Password Required"],
     },
-    post:{
-        type:String,
-        required:[true,"Post is required"]
-    }
-})
+},{timestamps:true})
 
 
 const User=mongoose.models.User || mongoose.model("User",userSchema);
