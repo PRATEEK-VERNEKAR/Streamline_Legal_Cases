@@ -3,12 +3,16 @@
 import Link from 'next/link'
 import React,{useState,useEffect} from 'react'
 import axios from "axios";
+import { useRouter } from 'next/navigation'
+
 import dynamic from 'next/dynamic';
 import { stat } from 'fs';
 
-const Login = () => {
+const RegisterPage = () => {
+  const router = useRouter()
   const [user,setUser]=useState({name:"",post:"",email:"",password:""});
   const [statusField,setStatusField]=useState({color:"",msg:""});
+
 
   let name,value;
   const handleInputs=(e:any)=>{
@@ -21,10 +25,10 @@ const Login = () => {
 
 
   useEffect(()=>{
-    console.log("USEEFFECT")
     if(statusField.msg){
       const timeoutID=setTimeout(()=>{
         setStatusField({color:'',msg:""});
+        setUser({name:"",post:"",email:"",password:""})
       },3000);
       
       return ()=>clearTimeout(timeoutID)
@@ -49,6 +53,9 @@ const Login = () => {
       }
       else{
         setStatusField({msg:res.data.message,color:'bg-green-500'})
+        setTimeout(()=>{
+          router.push('/login')
+        },3000)
       }
     }
     catch(error:any){
@@ -61,7 +68,9 @@ const Login = () => {
   const dynamicErrorField=`absolute right-10 border-2 text-[20px] font-light ${statusField.color} rounded-xl py-1 px-3 `
   return (
     <div className='flex flex-col justify-center items-center w-full h-[90%] relative'>
-      <div className='px-5 sm:w-full md:w-1/3 rounded-xl border-4 border-yellow-800 flex flex-col gap-y-5 justify-center items-center'>
+      <form 
+      onSubmit={handleSubmit} 
+      className='px-5 sm:w-full md:w-1/3 rounded-xl border-4 border-yellow-800 flex flex-col gap-y-5 justify-center items-center'>
       <div className='text-2xl mt-3 w-full text-left font-semibold'>
         <span className='shadow-lg px-3 py-1 shadow-zinc-950'>Signup</span>
         {statusField.msg?
@@ -119,7 +128,7 @@ const Login = () => {
             </input>
         </div>
         <button 
-        onClick={handleSubmit}
+        // onClick={handleSubmit}
         className='text-2xl px-3 rounded-full bg-fuchsia-400 border-2 border-black'>Signup</button>
         <div>
           <Link href='/login'>
@@ -127,9 +136,9 @@ const Login = () => {
             <span className='font-bold'>Login</span>
           </Link>
         </div>
-      </div>
+      </form>
     </div>
   )
 }
 
-export default Login;
+export default RegisterPage;
