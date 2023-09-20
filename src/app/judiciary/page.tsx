@@ -1,10 +1,11 @@
 import React from 'react'
+import Working from './components/WorkingList';
 
 const Judiaciary = () => {
   return (
-    <div>
-      okok
-    </div>
+    <>
+      <Working/>
+    </>
   )
 }
 
