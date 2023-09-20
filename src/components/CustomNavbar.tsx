@@ -45,7 +45,7 @@ export default function Example() {
                   <a href='/'>
                   <img
                     className="h-8 w-auto"
-                    src="/nav-logo.png"
+                    src="/nav-logo.jpg"
                     alt="Your Company"
                     />
                   </a>
