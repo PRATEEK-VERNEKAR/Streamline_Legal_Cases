@@ -1,10 +1,12 @@
 import React from 'react'
-import Working from './components/WorkingList';
+import WorkingList from './components/WorkingList';
+import JuryDashboard from './components/JuryDashboard';
 
 const Judiaciary = () => {
   return (
     <>
-      <Working/>
+      <WorkingList/>
+      <JuryDashboard/>
     </>
   )
 }
