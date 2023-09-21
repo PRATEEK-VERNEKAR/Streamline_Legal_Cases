@@ -1,7 +1,16 @@
+"use client";
+
 import React from 'react'
 import CivilDataset from '@/app/judiciary/components/CivilDataset.json';
+import { useRouter } from 'next/navigation';
 
 const JuryDashboard = () => {
+  const router=useRouter();
+
+  const handleScheduleCase = () => {
+    router.push('/judiciary/schedule-case');
+  };
+
   return (
     <div className='min-h-[90%] bg-slate-400 m-4 border-double border-black border-4 rounded-2xl'>
       <p className='p-3 text-center font-extrabold text-4xl'>Pending Cases({CivilDataset.length})</p>
@@ -11,9 +20,9 @@ const JuryDashboard = () => {
                 return(
                     <div className='bg-blue-100 mb-2 text-[15px] border-4 border-double border-red-900 m-3 rounded-lg md:mx-10 shadow-md shadow-emerald-400'>
                         <div className='flex justify-between'>
-                          <p className='px-2 '>Id = {data?.['S.No']}</p>
+                          <p className='px-2 flex justify-between items-center '>Id = {data?.['S.No']}</p>
                           <div>
-                            <button className='border-x-2 border-black p-2 mx-2'>Schedule Case</button>
+                            <button onClick={handleScheduleCase} className='border-x-2 border-black p-2 mx-2'>Schedule Case</button>
                             <button className='border-x-2 border-black p-2 mx-2'>Remove Case</button>
                             <button className='border-x-2 border-black p-2 mx-2'>View More</button>
                           </div>
