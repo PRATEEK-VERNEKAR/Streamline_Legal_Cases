@@ -1,0 +1,802 @@
+[
+    {
+        "S.No": "1",
+        "Description": "Disciplinary inquiry against an employee of the State Bank of India ",
+        "Case": "Employment dispute",
+        "People Affected": "4",
+        "Time Period": "14",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "2",
+        "Description": "Dispute over the termination of agreements for operating stalls at a railway station",
+        "Case": "Railway dispute",
+        "People Affected": "12",
+        "Time Period": "23",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "3",
+        "Description": " Dispute regarding the validity of a Town Improvement Scheme",
+        "Case": "Civil Appeal",
+        "People Affected": "4",
+        "Time Period": "25",
+        "Compensation": "5543000"
+    },
+    {
+        "S.No": "4",
+        "Description": "Dispute revolves around the partition of land, including wet land, dry land, and a house site",
+        "Case": "Civil Appeal",
+        "People Affected": "2",
+        "Time Period": "21",
+        "Compensation": "4432675"
+    },
+    {
+        "S.No": "5",
+        "Description": "Matters related to the classification of processed plywood for excise duty purposes",
+        "Case": "Excise Duty Appeal ",
+        "People Affected": "6",
+        "Time Period": "27",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "6",
+        "Description": "Dispute over the eviction of the respondent from premises governed by the Central Provinces and Berar Regulation",
+        "Case": "Rent Control Order",
+        "People Affected": "2",
+        "Time Period": "15",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "7",
+        "Description": "Sought to recall an earlier order, claiming they were not informed of the outcome and were unaware of certain proceedings.",
+        "Case": "Contempt Petition",
+        "People Affected": "2",
+        "Time Period": "29",
+        "Compensation": "4502300"
+    },
+    {
+        "S.No": "8",
+        "Description": "Challenges a change in the export policy introduced by the Government of India",
+        "Case": "Special Leave Petition",
+        "People Affected": "2",
+        "Time Period": "13",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "9",
+        "Description": "A victim of a motor accident and suffered serious injuries and he filed a claim petition for compensation",
+        "Case": "Motor Accident Compensation",
+        "People Affected": "2",
+        "Time Period": "27.8",
+        "Compensation": "23320"
+    },
+    {
+        "S.No": "10",
+        "Description": "An appeal against an order passed by a learned single Judge of the High Court of Calcutta",
+        "Case": "Contempt of Court",
+        "People Affected": "3045000",
+        "Time Period": "34",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "11",
+        "Description": "A dispute between the petitioners regarding the possession of a piece of land",
+        "Case": "Property Dispute",
+        "People Affected": "3",
+        "Time Period": "38",
+        "Compensation": "3456780"
+    },
+    {
+        "S.No": "12",
+        "Description": "Challenge to the constitutional validity of Chapter VIII-A inserted in 1986 in the Maharashtra Housing",
+        "Case": "Constitutional Validity of Legislation",
+        "People Affected": "597890",
+        "Time Period": "20",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "13",
+        "Description": "Dispute between the U.P. State Mineral Development Corporation and Shri K.C.P. Sinha regarding the validity of Rule 27",
+        "Case": "Employment Law",
+        "People Affected": "897250",
+        "Time Period": "45",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "14",
+        "Description": "A victim acquitted of charges under Sections 302, 120 B",
+        "Case": "Criminal Law",
+        "People Affected": "4",
+        "Time Period": "34",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "15",
+        "Description": "A case filed by state of Punjab referring to previous judgements",
+        "Case": "Civil Appeal",
+        "People Affected": "6",
+        "Time Period": "31",
+        "Compensation": "3456780"
+    },
+    {
+        "S.No": "16",
+        "Description": "A case filed a suit for pre-emption based on  right of pre-emption as a tenant",
+        "Case": "Civil Appeal",
+        "People Affected": "2",
+        "Time Period": "22",
+        "Compensation": "567860"
+    },
+    {
+        "S.No": "17",
+        "Description": "The case involves a dispute over ownership of a property in Madras",
+        "Case": "Property Dispute",
+        "People Affected": "2",
+        "Time Period": "45",
+        "Compensation": "897250"
+    },
+    {
+        "S.No": "18",
+        "Description": "The case revolves around a valiant customs officer who prevented a smuggling operation, resulting in the death of a suspected smuggler",
+        "Case": " Criminal Prosecution",
+        "People Affected": "6",
+        "Time Period": "32",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "19",
+        "Description": "The case revolves around a dispute over the use of certain land for a Kabristan (burial ground) among different Muslim Jamats",
+        "Case": "Civil Dispute",
+        "People Affected": "20",
+        "Time Period": "39",
+        "Compensation": "8578950"
+    },
+    {
+        "S.No": "20",
+        "Description": "This case pertains to the promotion criteria and process in the U.P. Jal Nigam, an organization formed under the U.P. Water Supply and Sewerage Act",
+        "Case": "Service Matter",
+        "People Affected": "40",
+        "Time Period": "29",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "21",
+        "Description": "A dispute between the petitioners regarding the possession of a piece of land",
+        "Case": "Civil Appeal",
+        "People Affected": "8",
+        "Time Period": "54",
+        "Compensation": "687870"
+    },
+    {
+        "S.No": "22",
+        "Description": "Dispute revolves around the partition of land, including a house site",
+        "Case": "Civil Appeal",
+        "People Affected": "2",
+        "Time Period": "37",
+        "Compensation": "6898250"
+    },
+    {
+        "S.No": "23",
+        "Description": "The case involves a dispute over the classification of a land agreement as either a lease or a license.",
+        "Case": "Land Dispute",
+        "People Affected": "10",
+        "Time Period": "48",
+        "Compensation": "4567750"
+    },
+    {
+        "S.No": "24",
+        "Description": "Victim was charged with various offenses under the Prevention of Corruption Act, 1988, and the Indian Penal Code",
+        "Case": "Criminal Appeal",
+        "People Affected": "20",
+        "Time Period": "18",
+        "Compensation": "6587270"
+    },
+    {
+        "S.No": "25",
+        "Description": "The case revolves around the suicide of the daughter of the complainant",
+        "Case": "Criminal Appeal",
+        "People Affected": "8",
+        "Time Period": "30",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "26",
+        "Description": "The case revolves around an incident where the accused allegedly attacked the deceased ",
+        "Case": "Criminal Appeal",
+        "People Affected": "15",
+        "Time Period": "49",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "27",
+        "Description": "The appeal arises from Special Leave Petition ",
+        "Case": " Civil Appeal",
+        "People Affected": "2",
+        "Time Period": "41",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "28",
+        "Description": " State of Karnataka involves a dispute over the imposition of penalties under the Karnataka Sales Tax Act",
+        "Case": "Taxation Dispute",
+        "People Affected": "643560",
+        "Time Period": "15",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "29",
+        "Description": "challenge to the conviction and sentence under Section 9 of the Central Excise & Salt Act",
+        "Case": "Criminal Appeal",
+        "People Affected": "18",
+        "Time Period": "35",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "30",
+        "Description": "Case revolved around the selection process for the dealership of SKO/LDO conducted by the Indian Oil Corporation",
+        "Case": "Civil Appeal",
+        "People Affected": "50",
+        "Time Period": "29",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "31",
+        "Description": "Case dealt with allegations of touting within the precincts of the Supreme Court",
+        "Case": "Professional Misconduct and Regulation",
+        "People Affected": "2",
+        "Time Period": "40",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "32",
+        "Description": "Case dealt with an election petition to the Madras Legislative Assembly",
+        "Case": "Election Petition ",
+        "People Affected": "35",
+        "Time Period": "19",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "33",
+        "Description": "Case involves a dispute between the workmen of Assam Co. and Assam Co. Ltd. regarding the payment of bonuses ",
+        "Case": "Civil appeal",
+        "People Affected": "75",
+        "Time Period": "22",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "34",
+        "Description": "Case revolves around the validity of a Presidential election and the procedures for filing a petition",
+        "Case": "Constitutional Law",
+        "People Affected": "105",
+        "Time Period": "5.8",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "35",
+        "Description": "Case involved an improper rejection of a nomination paper for an election from a double member constituency",
+        "Case": " Election Dispute",
+        "People Affected": "3",
+        "Time Period": "7.8",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "36",
+        "Description": "Criminal trial-Examination of Prosecution witnesses on commission -Propriety-Procedure-Code of Criminal Procedure",
+        "Case": "Criminal Misappropriation",
+        "People Affected": "897250",
+        "Time Period": "25",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "37",
+        "Description": "Appeal by special leave arises out of a consolidated reference made under section 66(1) of the Indian Income-tax Act ",
+        "Case": "Taxation",
+        "People Affected": "500",
+        "Time Period": "45",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "38",
+        "Description": "Contempt of court proceedings against \"The Times of India\" for publishing a critical article",
+        "Case": "Contempt of Court",
+        "People Affected": "5",
+        "Time Period": "1.5",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "39",
+        "Description": "Issue regarding the nomination paper's compliance with the requirement to state the candidate's occupation,",
+        "Case": "Election Dispute",
+        "People Affected": "8",
+        "Time Period": "10.5",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "40",
+        "Description": "Petitions under Art. 136 of the Constitution praying for special leave to appeal to the Supreme Court from the orders of the High Court",
+        "Case": "Special Leave Petition",
+        "People Affected": "643560",
+        "Time Period": "7.5",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "41",
+        "Description": "An apprehension to breach of the peace on \u00e2\u20ac\u2122account of their activities",
+        "Case": "Criminal Procedure",
+        "People Affected": "2",
+        "Time Period": "7.9",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "42",
+        "Description": "Civil Appeal for Partition of Watan Land",
+        "Case": "Civil Appeal ",
+        "People Affected": "2",
+        "Time Period": "8",
+        "Compensation": "7856780"
+    },
+    {
+        "S.No": "43",
+        "Description": "Issuance of directions to tackle vehicular pollution and chaotic traffic conditions in Delhi, and appointment of Court Officers for compliance",
+        "Case": "Criminal Appeal",
+        "People Affected": "5000",
+        "Time Period": "5.2",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "44",
+        "Description": "Disallowance of depreciation on an amount paid for additional construction of a building for business purposes",
+        "Case": " Income Tax Appeal",
+        "People Affected": "2500",
+        "Time Period": "6.7",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "45",
+        "Description": "Dispute over absorption of canteen employees as bank employees",
+        "Case": "Employment Dispute",
+        "People Affected": "7000",
+        "Time Period": "8.3",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "46",
+        "Description": "Case involves the classification of imported laptops and preloaded operating software recorded on Hard Disk Drives (HDD)",
+        "Case": "Customs Classification Dispute",
+        "People Affected": "2",
+        "Time Period": "4",
+        "Compensation": "59000000"
+    },
+    {
+        "S.No": "47",
+        "Description": "Victim calls in question legality of the judgment rendered by Division Bench of the Patna High Court ",
+        "Case": "Taxation Dispute",
+        "People Affected": "567890",
+        "Time Period": "8",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "48",
+        "Description": " Victim filed a writ petition before the High Court and secured an ex parte order",
+        "Case": "Property Dispute",
+        "People Affected": "15",
+        "Time Period": "8.9",
+        "Compensation": "4589123"
+    },
+    {
+        "S.No": "49",
+        "Description": " Appeal arising out of a judgment and Order passed by the Madhya Pradesh High Court in Writ Petition centers around the M.P. Civil Services (CCA) Rule",
+        "Case": "Interpretation of Service Rules",
+        "People Affected": "734650",
+        "Time Period": "5.6",
+        "Compensation": "22000"
+    },
+    {
+        "S.No": "50",
+        "Description": "Dispute regarding transit insurance v/s insurance company",
+        "Case": "Consumer Dispute ",
+        "People Affected": "50",
+        "Time Period": "10.9",
+        "Compensation": "7038038"
+    },
+    {
+        "S.No": "51",
+        "Description": "Case arose from an incident in which an altercation occurred over the alleged theft of wood",
+        "Case": "Criminal Appeal",
+        "People Affected": "734650",
+        "Time Period": "5.5",
+        "Compensation": "547890"
+    },
+    {
+        "S.No": "52",
+        "Description": "Case involves a petition filed regarding disqualification for election to the Legislative Assembly of Himachal Pradesh ",
+        "Case": "Election Disqualification",
+        "People Affected": "2",
+        "Time Period": "27",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "53",
+        "Description": " Leaflet contained content that was deemed to hinder or obstruct the due administration of justice",
+        "Case": "Contempt of Court",
+        "People Affected": "3",
+        "Time Period": "31",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "54",
+        "Description": "Legal case or a portion of a legal document related to a judgment from the Supreme Court of India",
+        "Case": "Customs Law",
+        "People Affected": "5",
+        "Time Period": "13",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "55",
+        "Description": "Agreement was considered professional misconduct, leading to disciplinary action",
+        "Case": "Professional Misconduct",
+        "People Affected": "35",
+        "Time Period": "28",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "56",
+        "Description": "Challenge of arrest without a warrant and subsequent proceedings under sections of the Code of Criminal Procedure",
+        "Case": "Criminal Procedure",
+        "People Affected": "2",
+        "Time Period": "32",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "57",
+        "Description": "Victim was convicted for offences under Sections 326 and 324 of the Indian Penal Code for causing grievous hurt and injury to multiple individuals",
+        "Case": "Criminal Appeal",
+        "People Affected": "5",
+        "Time Period": "8.3",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "58",
+        "Description": "Case filed a writ petition under Article 32 of the Constitution of India, seeking his release through a writ of Habeas Corpus",
+        "Case": "Habeas Corpus Petition",
+        "People Affected": "2",
+        "Time Period": "6.7",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "59",
+        "Description": "Victim initiated a proceeding for ejectment against the tenant under section 14A of the Punjab Security of Land Tenures Act",
+        "Case": "Land Tenure Dispute",
+        "People Affected": "2",
+        "Time Period": "9",
+        "Compensation": "4089000"
+    },
+    {
+        "S.No": "60",
+        "Description": "Client ought a stay of a suit that had been restored to file by the High Court",
+        "Case": "Jurisdictional Issue",
+        "People Affected": "50",
+        "Time Period": "7.1",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "61",
+        "Description": "Victim was convicted under Section 379-A and sentenced to five years of rigorous imprisonment",
+        "Case": "Criminal Appeal",
+        "People Affected": "489950",
+        "Time Period": "6.1",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "62",
+        "Description": "Curative petition arises from a review petition (civil) filed in 2018, which, in turn, stemmed from Civil Appeal",
+        "Case": "Curative Petition ",
+        "People Affected": "2",
+        "Time Period": "8.9",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "63",
+        "Description": "The appellants argued for enhancement of compensation based on the potential development of the land",
+        "Case": "Civil Appeal",
+        "People Affected": "2",
+        "Time Period": "9.6",
+        "Compensation": "8945650"
+    },
+    {
+        "S.No": "64",
+        "Description": "Case revolves around a dispute over properties in Gwalior, Madhya Pradesh, previously owned by Santoba Temak",
+        "Case": "Civil Appeal",
+        "People Affected": "2",
+        "Time Period": "10.9",
+        "Compensation": "4567890"
+    },
+    {
+        "S.No": "65",
+        "Description": "Dispute regarding transportation contract for pig iron and steel material",
+        "Case": "Arbitration Dispute",
+        "People Affected": "50",
+        "Time Period": "29",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "66",
+        "Description": "Case revolves around the unauthorized interference of the Chief Minister in the grant of Stage Carriage Permits, violating the Motor Vehicles Act",
+        "Case": "Administrative Law",
+        "People Affected": "670895",
+        "Time Period": "4",
+        "Compensation": "100000"
+    },
+    {
+        "S.No": "67",
+        "Description": "Case involves the conviction of the appellants (accused No.6 and 5) under Section 302 IPC read with Section 34 IPC for their role in the murder",
+        "Case": " Criminal Law",
+        "People Affected": "8",
+        "Time Period": "23",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "68",
+        "Description": "The case involves an appeal filed by Ghanshyam against his conviction under Sections 420, 468, and 471 of the Indian Penal Code ",
+        "Case": " Criminal Law",
+        "People Affected": "3",
+        "Time Period": "23",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "69",
+        "Description": " Case involves M/s. Buzrak Bus Service Regd. filing an appeal against the Additional State Transport Commissioner",
+        "Case": "Civil Appeal",
+        "People Affected": "3",
+        "Time Period": "5",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "70",
+        "Description": "Criminal appeal against the State of Bihar as he was charged under Sections 7 and 13 of the Prevention of Corruption Act",
+        "Case": "Criminal Appeal",
+        "People Affected": "498120",
+        "Time Period": "8.3",
+        "Compensation": "25000"
+    },
+    {
+        "S.No": "71",
+        "Description": "Case referred to previous court decisions affirming that officers dealing with public money must meet the highest standards of integrity and trustworthiness",
+        "Case": "Civil Appeal",
+        "People Affected": "85",
+        "Time Period": "9",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "72",
+        "Description": "Case pertains to the maintainability of a writ application after the withdrawal of a Writ Petition under Article 32 of the Constitution",
+        "Case": " Constitutional Law",
+        "People Affected": "5000",
+        "Time Period": "3.5",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "73",
+        "Description": "The dispute revolves around the regularization of services for employees appointed on daily wages",
+        "Case": "Employment Dispute",
+        "People Affected": "50",
+        "Time Period": "50",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "74",
+        "Description": "Appellant challenged the reliance on uncommunicated adverse Annual Confidential Reports (ACRs) for her promotion consideration",
+        "Case": "Employment Dispute",
+        "People Affected": "35",
+        "Time Period": "18",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "75",
+        "Description": "The case involves an accident between a Tempo Trax and an unidentified truck",
+        "Case": "Civil Appeal",
+        "People Affected": "50",
+        "Time Period": "7",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "76",
+        "Description": "A transfer Petition seeking the transfer of a petition for restitution of conjugal rights",
+        "Case": "Civil Original Jurisdiction",
+        "People Affected": "2",
+        "Time Period": "52",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "77",
+        "Description": "Case involves a dispute over a public street in which the appellant, Hari Ram, was accused of encroaching upon",
+        "Case": " Civil Appeal",
+        "People Affected": "2",
+        "Time Period": "39",
+        "Compensation": "10000"
+    },
+    {
+        "S.No": "78",
+        "Description": "The appellant sought a writ in the nature of habeas corpus concerning two children",
+        "Case": "Criminal Appeal ",
+        "People Affected": "9",
+        "Time Period": "8",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "79",
+        "Description": "The respondent filed a suit for partition against the petitioner regarding certain Watan lands",
+        "Case": "Civil Appeal",
+        "People Affected": "6",
+        "Time Period": "28",
+        "Compensation": "2834560"
+    },
+    {
+        "S.No": "80",
+        "Description": "The case involves a dispute over the classification and valuation of imported cups",
+        "Case": "Customs and Tariff Dispute",
+        "People Affected": "65",
+        "Time Period": "29",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "81",
+        "Description": "The case involves a jurisdictional conflict between the National Consumer Disputes Redressal Commission and the Motor Vehicles",
+        "Case": "Consumer Protection",
+        "People Affected": "4",
+        "Time Period": "20",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "82",
+        "Description": "Keya Developers and Construction Private Limited filed appeals against a judgement of the High Court of Bombay.",
+        "Case": "Civil Appeal ",
+        "People Affected": "150",
+        "Time Period": "6.3",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "83",
+        "Description": "The case revolves around the challenge to the provisions of the Madhya Pradesh Labour Laws (Amendment) and Misc. Provisions Act",
+        "Case": "Civil Appeal",
+        "People Affected": "5000",
+        "Time Period": "3.9",
+        "Compensation": "8905679"
+    },
+    {
+        "S.No": "84",
+        "Description": "Victim were convicted for various offenses under the Indian Penal Code (IPC) and were given specific sentences",
+        "Case": "Criminal Appeal",
+        "People Affected": "7",
+        "Time Period": "10",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "85",
+        "Description": "The case originated from a judgment of the National Consumer Disputes Redressal Commission",
+        "Case": " Civil Appeal",
+        "People Affected": "25",
+        "Time Period": "18",
+        "Compensation": "200000"
+    },
+    {
+        "S.No": "86",
+        "Description": "Victim was convicted for the murder of his wife and appealed the decision",
+        "Case": "Criminal Appeal",
+        "People Affected": "2",
+        "Time Period": "34",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "87",
+        "Description": " Dispute arising from a contract for handling and transportation services at Inland Clearance Depot, Varanasi, leading to termination of the contract and subsequent legal proceedings",
+        "Case": "Contract Dispute",
+        "People Affected": "21",
+        "Time Period": "42",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "88",
+        "Description": "The case involves two civil appeals which  arise from Special Leave Petitions related to land acquisition proceedings",
+        "Case": "Land Acquisition Dispute",
+        "People Affected": "10000",
+        "Time Period": "16",
+        "Compensation": "7654320"
+    },
+    {
+        "S.No": "89",
+        "Description": "The case involves two criminal appeals against the State of Gujarat",
+        "Case": "Criminal Appeal",
+        "People Affected": "567890",
+        "Time Period": "11",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "90",
+        "Description": "Appellant filed a suit for specific performance of an Agreement which involved the sale of the property",
+        "Case": "Civil Appeal",
+        "People Affected": "4",
+        "Time Period": "13.8",
+        "Compensation": "200000"
+    },
+    {
+        "S.No": "91",
+        "Description": "Case filed a petition under Article 32 of the Constitution of India",
+        "Case": "Public Interest Litigation",
+        "People Affected": "50",
+        "Time Period": "6.7",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "92",
+        "Description": "The case involves the interpretation of the Kerala Industrial Establishments (National and Festival Holidays) (Amendment) Act",
+        "Case": "Criminal Appeal",
+        "People Affected": "2",
+        "Time Period": "10",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "93",
+        "Description": "The case revolves around the constitutional validity of the Kerala Industrial Establishments Act",
+        "Case": "Constitutional Validity Challenge",
+        "People Affected": "389670",
+        "Time Period": "4.9",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "94",
+        "Description": "This case involves a husband, A.V.G.V. Ramu, filing an appeal against the dismissal of their joint petition for mutual divorce by the Family Court",
+        "Case": "Divorce by Mutual Consent",
+        "People Affected": "2",
+        "Time Period": "8",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "95",
+        "Description": "Victim filed eviction petitions against the respondents under the Haryana Urban (Control of Rent and Eviction) Act",
+        "Case": " Petition for Eviction",
+        "People Affected": "2",
+        "Time Period": "39",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "96",
+        "Description": "Victim filed Writ Petition seeking to prevent the cancellation of his license ",
+        "Case": "Civil Appeal",
+        "People Affected": "35",
+        "Time Period": "15",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "97",
+        "Description": "The appellant's application for arrears was initially allowed by the U.P. Public Service Tribunal, but the Kanpur Development Authority challenged this decision in the High Court",
+        "Case": " Employment Dispute",
+        "People Affected": "900",
+        "Time Period": "9.3",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "98",
+        "Description": "The case pertains to a dispute over the calculation of allowable expenditure related to the remuneration",
+        "Case": "Income Tax Assessment Appeal",
+        "People Affected": "2",
+        "Time Period": "36",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "99",
+        "Description": "Case primarily focuses on the eligibility criteria for the candidates and the legal implications ",
+        "Case": "Review Petition ",
+        "People Affected": "2500",
+        "Time Period": "14",
+        "Compensation": "0"
+    },
+    {
+        "S.No": "100",
+        "Description": "Dismissal of Sub-Inspector Shardul Singh by the State of Madhya Pradesh",
+        "Case": " Administrative Law",
+        "People Affected": "734650",
+        "Time Period": "2.5",
+        "Compensation": "0"
+    }
+]
