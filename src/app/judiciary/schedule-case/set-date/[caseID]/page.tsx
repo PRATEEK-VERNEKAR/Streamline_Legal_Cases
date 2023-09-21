@@ -4,9 +4,9 @@ import React,{useState,useEffect} from 'react'
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { useRouter } from 'next/navigation';
+import axios from 'axios';
 
-
-const ScheduleCaseComponent = () => {
+const ScheduleCaseComponent = ({params}:any) => {
   const [date,setDate]=useState(new Date());
   const [calender,setCalender]=useState(false);
   const [goBack,setGoBack]=useState(false);
