@@ -1,5 +1,5 @@
 import {connect} from "@/dbConfig/dbConfig";
-import CriminalCase from "@/models/assignCriminalCourtModel";
+import CriminalCase from "@/models/criminalCaseModel";
 import { NextRequest,NextResponse } from "next/server";
 
 
@@ -7,11 +7,19 @@ export async function POST(request:NextRequest){
     try{
         await connect();
         const reqBody=await request.json();
-        console.log(reqBody);
+        console.log(reqBody.PriorityScore.data);
 
         const newCase=new CriminalCase({
-            reqBody
+            "PeopleAffected":reqBody.PeopleAffected,
+            "Compensation":reqBody.Compensation,
+            "TimePeriod":reqBody.TimePeriod,
+            "Death":reqBody.Death,
+            "CaseType":reqBody.CaseType,
+            "Description":reqBody.Description,
+            "PriorityScore":reqBody.PriorityScore.data.ans
         })
+        
+        // console.log(newCase)
 
         const savedCase=await newCase.save();
         console.log(savedCase);

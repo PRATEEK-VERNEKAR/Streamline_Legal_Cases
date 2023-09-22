@@ -62,35 +62,32 @@ const JuryDashboard = () => {
     }
 
     try{
-      // const mlres=await axios.post('http://127.0.0.1:5000/predictdata',newCase);
+      // const mlres=await axios.get('http://127.0.0.1:3000/predictdata');
+      const mlres=await axios.post('http://127.0.0.1:3000/predictdata',{
+        "People_affected":newCase.PeopleAffected,
+        "Compensation":newCase.Compensation,
+        "Time_period":newCase.TimePeriod,
+        "Death":newCase.Death
+    });
+      console.log(mlres)
 
-      // const mlres=await fetch('http://127.0.0.1:5000/predictdata',{
-      //   method: 'POST',
-      //   headers: {
-      //     Accept: 'application.json',
-      //     'Content-Type': 'application/json'
-      //   },
-      //   body: JSON.stringify(newCase),
-      //   }
-      //   )
-      // console.log(mlres)
-      // if(!mlres){
-      //   const res=await axios.post('/api/addCases/ciminal',{...newCase,PriorityScore:mlres});
-      //   console.log(res);
+      if(mlres){
+        const res=await axios.post('/api/addCases/ciminal',{...newCase,PriorityScore:mlres});
+        console.log(res);
         
         
-      //   if(res.status!=200){
-      //     setStatusField({msg:res.data.message,color:'bg-red-500'})
-      //     setOpenWindowHook(false);
-      //     return;
-      //   }
-      //   else{
-      //     setStatusField({msg:res.data.message,color:'bg-green-500'})
-      //     setTimeout(()=>{
-      //       setOpenWindowHook(false);
-      //     },3000)
-      //   }
-      // }
+        if(res.status!=200){
+          setStatusField({msg:res.data.message,color:'bg-red-500'})
+          setOpenWindowHook(false);
+          return;
+        }
+        else{
+          setStatusField({msg:res.data.message,color:'bg-green-500'})
+          setTimeout(()=>{
+            setOpenWindowHook(false);
+          },3000)
+        }
+      }
     }
     catch(error:any){
       // setStatusField({msg:error.response.data.error,color:"bg-red-500"})
