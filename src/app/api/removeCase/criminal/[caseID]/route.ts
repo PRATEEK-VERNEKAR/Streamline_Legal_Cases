@@ -5,8 +5,8 @@ import CriminalCase from '@/models/criminalCaseModel';
 export default async function DELETE({params}:any){
     try{
         await connect();
-        const _id=params._id;
-        console.log(_id);
+        // const _id=params._id;
+        console.log(params.caseID)
         // await CriminalCase.deleteOne({_id:_id});
         return NextResponse.json({
             message:"Case deleted successfully",

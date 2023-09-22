@@ -69,11 +69,11 @@ const JuryDashboard = () => {
         "Time_period":newCase.TimePeriod,
         "Death":newCase.Death
     });
-      console.log(mlres)
+      // console.log(mlres)
 
       if(mlres){
         const res=await axios.post('/api/addCases/ciminal',{...newCase,PriorityScore:mlres});
-        console.log(res);
+        // console.log(res);
         
         
         if(res.status!=200){
@@ -105,7 +105,8 @@ const JuryDashboard = () => {
 
   const handleRemvoeCase=async(_id:any)=>{
     try{
-      await axios.delete('/api/removeCase/ciminal/',{ params:{_id:_id}});
+      await axios.delete(`/api/removeCase/criminal/${_id}`);
+      // await axios.delete('/api/removeCase/criminal/',{ params:{_id:_id}});
     }
     catch(error:any){
 

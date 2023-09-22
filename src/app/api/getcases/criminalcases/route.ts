@@ -7,8 +7,8 @@ export async function GET(request:NextRequest) {
         await connect();
         const allCrimeCases=await CriminalCase.find({});
         // console.log(allCrimeCases);
-        const sortedAllCrimeCases=allCrimeCases.sort((a,b)=>b.rating-a.rating);
-        console.log(sortedAllCrimeCases);
+        const sortedAllCrimeCases=allCrimeCases.sort((a,b)=>b.PriorityScore-a.PriorityScore);
+        // console.log(sortedAllCrimeCases);
         return NextResponse.json({ criminalCases: sortedAllCrimeCases }, { status: 200 });
     }
     catch(error:any){
