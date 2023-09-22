@@ -6,8 +6,10 @@ export async function GET(request:NextRequest) {
     try{
         await connect();
         const allCrimeCases=await CriminalCase.find({});
-        console.log(allCrimeCases);
-        return NextResponse.json({ criminalCases: allCrimeCases }, { status: 200 });
+        // console.log(allCrimeCases);
+        const sortedAllCrimeCases=allCrimeCases.sort((a,b)=>b.rating-a.rating);
+        console.log(sortedAllCrimeCases);
+        return NextResponse.json({ criminalCases: sortedAllCrimeCases }, { status: 200 });
     }
     catch(error:any){
         console.log("error");

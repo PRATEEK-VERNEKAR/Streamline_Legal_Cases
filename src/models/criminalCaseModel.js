@@ -1,5 +1,5 @@
 import mongoose from  "mongoose";
-const Long = require('mongoose-long')(mongoose);
+// const Long = require('mongoose-long')(mongoose);
 
 const caseSchema =new mongoose.Schema({
     CaseType:{
