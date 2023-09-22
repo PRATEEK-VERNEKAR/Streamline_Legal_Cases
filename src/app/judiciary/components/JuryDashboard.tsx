@@ -62,25 +62,38 @@ const JuryDashboard = () => {
     }
 
     try{
-      const mlres=await axios.post('/http://localhost:5000/predictdata',newCase);
+      // const mlres=await axios.post('http://127.0.0.1:5000/predictdata',newCase);
 
-      const res=await axios.post('/api/addCases/ciminal',{...newCase,PriorityScore:mlres});
-      console.log(res);
-
-      if(res.status!=200){
-        setStatusField({msg:res.data.message,color:'bg-red-500'})
-        setOpenWindowHook(false);
-        return;
-      }
-      else{
-        setStatusField({msg:res.data.message,color:'bg-green-500'})
-        setTimeout(()=>{
-          setOpenWindowHook(false);
-        },3000)
-      }
+      // const mlres=await fetch('http://127.0.0.1:5000/predictdata',{
+      //   method: 'POST',
+      //   headers: {
+      //     Accept: 'application.json',
+      //     'Content-Type': 'application/json'
+      //   },
+      //   body: JSON.stringify(newCase),
+      //   }
+      //   )
+      // console.log(mlres)
+      // if(!mlres){
+      //   const res=await axios.post('/api/addCases/ciminal',{...newCase,PriorityScore:mlres});
+      //   console.log(res);
+        
+        
+      //   if(res.status!=200){
+      //     setStatusField({msg:res.data.message,color:'bg-red-500'})
+      //     setOpenWindowHook(false);
+      //     return;
+      //   }
+      //   else{
+      //     setStatusField({msg:res.data.message,color:'bg-green-500'})
+      //     setTimeout(()=>{
+      //       setOpenWindowHook(false);
+      //     },3000)
+      //   }
+      // }
     }
     catch(error:any){
-      setStatusField({msg:error.response.data.error,color:"bg-red-500"})
+      // setStatusField({msg:error.response.data.error,color:"bg-red-500"})
 
       console.log(error)
     }
@@ -91,6 +104,16 @@ const JuryDashboard = () => {
     const name=e.target.name;
     const value=e.target.value;
     setNewCase({...newCase,[name]:value})
+  }
+
+  const handleRemvoeCase=async(_id:any)=>{
+    try{
+      await axios.delete('/api/removeCase/ciminal/',{ params:{_id:_id}});
+    }
+    catch(error:any){
+
+      console.log(error)
+    }
   }
 
   return (
@@ -108,6 +131,12 @@ const JuryDashboard = () => {
           </div>
           <div className='flex justify-center items-center'>
             <button onClick={addCases} className='bg-green-400 rounded-full border-r-4 border-blue-900 py-2'>Add Case</button>
+            <button 
+             onClick={()=>{
+              setOpenWindowHook(false)
+              setNewCase({PeopleAffected:"",Compensation:"",TimePeriod:"",Death:"",CaseType:"",Description:""})
+            }}
+             className='bg-green-400 rounded-full border-r-4 border-blue-900 py-2'>Back</button>
           </div>
         </div>
       ):(
@@ -127,7 +156,7 @@ const JuryDashboard = () => {
                               <p className='px-2 flex justify-between items-center '>Order = {index+1}</p>
                               <div>
                                 <button onClick={()=>{handleScheduleCase(data._id)}} className='border-x-2 border-black p-2 mx-2'>Schedule Case</button>
-                                <button className='border-x-2 border-black p-2 mx-2'>Remove Case</button>
+                                <button onClick={()=>{handleRemvoeCase(data._id)}} className='border-x-2 border-black p-2 mx-2'>Remove Case</button>
                                 <button className='border-x-2 border-black p-2 mx-2'>View More</button>
                               </div>
                             </div>

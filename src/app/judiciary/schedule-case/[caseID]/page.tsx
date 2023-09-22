@@ -14,7 +14,7 @@ const ScheduleCase = ({params}:any) => {
     }
     else if(navigate==2){
       const caseID=params.caseID;
-      const dynamicRoute=`judiciary/schedule-case/set-date/${caseID}`;
+      const dynamicRoute=`set-date/`;
       router.push(dynamicRoute);
     }
   },[navigate])
